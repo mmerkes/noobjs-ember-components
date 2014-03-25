@@ -1,5 +1,5 @@
 {
-  "name": "ember-components",
+  "name": "noobjs-ember-components",
   "version": "0.0.1",
   "description": "A collection of home brewed Ember components",
   "main": "server.js",
@@ -21,5 +21,7 @@
   "bugs": {
     "url": "https://github.com/mmerkes/ember-components/issues"
   },
-  "homepage": "https://github.com/mmerkes/ember-components"
+  "homepage": "https://github.com/mmerkes/ember-components",
+  "dependencies": {
+  }
 }
