@@ -1,0 +1,26 @@
+{
+  "name": "ember-components",
+  "version": "0.0.1",
+  "authors": [
+    "Empty Arsenal <matt.merkes@gmail.com>"
+  ],
+  "description": "A collection of custom Ember components",
+  "main": "server.js",
+  "keywords": [
+    "Ember",
+    "components",
+    "handlebars",
+    "chartjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chartjs": "*"
+  }
+}

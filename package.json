@@ -1,0 +1,25 @@
+{
+  "name": "ember-components",
+  "version": "0.0.1",
+  "description": "A collection of home brewed Ember components",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmerkes/ember-components.git"
+  },
+  "keywords": [
+    "Ember",
+    "components",
+    "handlebars",
+    "chartjs"
+  ],
+  "author": "Matt Merkes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmerkes/ember-components/issues"
+  },
+  "homepage": "https://github.com/mmerkes/ember-components"
+}
