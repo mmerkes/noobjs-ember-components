@@ -1,7 +1,7 @@
 App.IndexController = Ember.Controller.extend({
   markers: [ [ 47.6130284, -122.3420645 ], [ 47.6390722, -122.3057244 ]],
 
-  chartData: [
+  donutData: [
     {
         value: 20,
         color:"#637b85"
@@ -18,5 +18,24 @@ App.IndexController = Ember.Controller.extend({
         value : 10,
         color : "#c62f29"
     }
-  ]
+  ],
+
+  pieData: [
+    {
+      value: 30,
+      color:"#F38630"
+    },
+    {
+      value : 50,
+      color : "#E0E4CC"
+    },
+    {
+      value : 100,
+      color : "#69D2E7"
+    }     
+  ],
+
+  width: 250,
+
+  height: 250
 });

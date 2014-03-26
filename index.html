@@ -23,8 +23,10 @@
     </script>
 
     <script type="text/x-handlebars" id="index">
-      <h1>Chart</h1>
-      {{chart-donut data=chartData}}
+      <h1>Pie Chart</h1>
+      {{pie-chart data=pieData}}
+      <h1>Donut Chart</h1>
+      {{chart-donut data=donutData width=width height=height}}
       <h1>Map</h1>
       {{leaflet-map lat="47.614848" long="-122.3358422" markers=markers}}
     </script>
@@ -34,7 +36,12 @@
     </script>
 
     <script type="text/x-handlebars" id="components/chart-donut">
-      <canvas id="myChart" width="400" height="400"></canvas>
+      <canvas id="donut" width="200" height="200"></canvas>
+
+    </script>
+
+    <script type="text/x-handlebars" id="components/pie-chart">
+      <canvas id="piechart" width="200" height="200"></canvas>
 
     </script>
 
@@ -50,6 +57,7 @@
     <script src="js/controllers/indexController.js"></script>
     <script src="lib/leaflet/leafletMap.js"></script>
     <script src="lib/chartjs/donut.js"></script>
+    <script src="lib/chartjs/piechart.js"></script>
     <script src="sandbox.js"></script>
   </body>
 </html>
